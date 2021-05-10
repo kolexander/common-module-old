@@ -1,0 +1,11 @@
+asgiref==3.2.10
+Django==3.1
+#psycopg2==2.8.6
+pytz==2020.1
+sqlparse==0.3.1
+Sphinx==3.4.3
+django-modeltranslation==0.16.1
+djangorestframework==3.12.2
+djangorestframework-jwt==1.11.0
+django-phonenumber-field==5.1
+phonenumbers==8.12.22

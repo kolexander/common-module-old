@@ -1,0 +1,395 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>common package &#8212; grc 1.0 documentation</title>
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/classic.css" type="text/css" />
+    
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="Welcome to grc’s documentation!" href="../index.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="../index.html" title="Welcome to grc’s documentation!"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">grc 1.0 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">common package</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="common-package">
+<h1>common package<a class="headerlink" href="#common-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-common.admin">
+<span id="common-admin-module"></span><h2>common.admin module<a class="headerlink" href="#module-common.admin" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-common.models">
+<span id="common-models-module"></span><h2>common.models module<a class="headerlink" href="#module-common.models" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt id="common.models.Account">
+<em class="property">class </em><code class="sig-prename descclassname">common.models.</code><code class="sig-name descname">Account</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#common.models.Account" title="Permalink to this definition">¶</a></dt>
+<dd><p>This model contains account info.
+Required:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>disabled</p></li>
+<li><p>created_at</p></li>
+<li><p>updated_at</p></li>
+<li><p>primary_email</p></li>
+<li><p>disabled</p></li>
+<li><p>last_name</p></li>
+</ul>
+</div></blockquote>
+<dl class="py exception">
+<dt id="common.models.Account.DoesNotExist">
+<em class="property">exception </em><code class="sig-name descname">DoesNotExist</code><a class="headerlink" href="#common.models.Account.DoesNotExist" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py exception">
+<dt id="common.models.Account.MultipleObjectsReturned">
+<em class="property">exception </em><code class="sig-name descname">MultipleObjectsReturned</code><a class="headerlink" href="#common.models.Account.MultipleObjectsReturned" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="common.models.Area">
+<em class="property">class </em><code class="sig-prename descclassname">common.models.</code><code class="sig-name descname">Area</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#common.models.Area" title="Permalink to this definition">¶</a></dt>
+<dd><p>Model contains area info.
+Required:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>type</p></li>
+</ul>
+</div></blockquote>
+<dl class="py exception">
+<dt id="common.models.Area.DoesNotExist">
+<em class="property">exception </em><code class="sig-name descname">DoesNotExist</code><a class="headerlink" href="#common.models.Area.DoesNotExist" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py exception">
+<dt id="common.models.Area.MultipleObjectsReturned">
+<em class="property">exception </em><code class="sig-name descname">MultipleObjectsReturned</code><a class="headerlink" href="#common.models.Area.MultipleObjectsReturned" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="common.models.Company">
+<em class="property">class </em><code class="sig-prename descclassname">common.models.</code><code class="sig-name descname">Company</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#common.models.Company" title="Permalink to this definition">¶</a></dt>
+<dd><p>This model contains company info.
+Required:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>creation_time</p></li>
+<li><p>area</p></li>
+<li><p>name</p></li>
+<li><p>category</p></li>
+</ul>
+</div></blockquote>
+<dl class="py exception">
+<dt id="common.models.Company.DoesNotExist">
+<em class="property">exception </em><code class="sig-name descname">DoesNotExist</code><a class="headerlink" href="#common.models.Company.DoesNotExist" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py exception">
+<dt id="common.models.Company.MultipleObjectsReturned">
+<em class="property">exception </em><code class="sig-name descname">MultipleObjectsReturned</code><a class="headerlink" href="#common.models.Company.MultipleObjectsReturned" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="common.models.CompanyIndustry">
+<em class="property">class </em><code class="sig-prename descclassname">common.models.</code><code class="sig-name descname">CompanyIndustry</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#common.models.CompanyIndustry" title="Permalink to this definition">¶</a></dt>
+<dd><p>This model contains company industry info.
+Required:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>company</p></li>
+<li><p>industry</p></li>
+</ul>
+</div></blockquote>
+<dl class="py exception">
+<dt id="common.models.CompanyIndustry.DoesNotExist">
+<em class="property">exception </em><code class="sig-name descname">DoesNotExist</code><a class="headerlink" href="#common.models.CompanyIndustry.DoesNotExist" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py exception">
+<dt id="common.models.CompanyIndustry.MultipleObjectsReturned">
+<em class="property">exception </em><code class="sig-name descname">MultipleObjectsReturned</code><a class="headerlink" href="#common.models.CompanyIndustry.MultipleObjectsReturned" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="common.models.CompanyManager">
+<em class="property">class </em><code class="sig-prename descclassname">common.models.</code><code class="sig-name descname">CompanyManager</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#common.models.CompanyManager" title="Permalink to this definition">¶</a></dt>
+<dd><p>This model contains company industry info.
+Required:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>user</p></li>
+<li><p>company</p></li>
+<li><p>type</p></li>
+</ul>
+</div></blockquote>
+<dl class="py exception">
+<dt id="common.models.CompanyManager.DoesNotExist">
+<em class="property">exception </em><code class="sig-name descname">DoesNotExist</code><a class="headerlink" href="#common.models.CompanyManager.DoesNotExist" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py exception">
+<dt id="common.models.CompanyManager.MultipleObjectsReturned">
+<em class="property">exception </em><code class="sig-name descname">MultipleObjectsReturned</code><a class="headerlink" href="#common.models.CompanyManager.MultipleObjectsReturned" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="common.models.Currency">
+<em class="property">class </em><code class="sig-prename descclassname">common.models.</code><code class="sig-name descname">Currency</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#common.models.Currency" title="Permalink to this definition">¶</a></dt>
+<dd><p>Model contains currency info.
+Required:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>code</p></li>
+<li><p>rate</p></li>
+<li><p>updated_at</p></li>
+</ul>
+</div></blockquote>
+<dl class="py exception">
+<dt id="common.models.Currency.DoesNotExist">
+<em class="property">exception </em><code class="sig-name descname">DoesNotExist</code><a class="headerlink" href="#common.models.Currency.DoesNotExist" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py exception">
+<dt id="common.models.Currency.MultipleObjectsReturned">
+<em class="property">exception </em><code class="sig-name descname">MultipleObjectsReturned</code><a class="headerlink" href="#common.models.Currency.MultipleObjectsReturned" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="common.models.Industry">
+<em class="property">class </em><code class="sig-prename descclassname">common.models.</code><code class="sig-name descname">Industry</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#common.models.Industry" title="Permalink to this definition">¶</a></dt>
+<dd><p>Model contains industry info.
+Required:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>is_hidden</p></li>
+</ul>
+</div></blockquote>
+<dl class="py exception">
+<dt id="common.models.Industry.DoesNotExist">
+<em class="property">exception </em><code class="sig-name descname">DoesNotExist</code><a class="headerlink" href="#common.models.Industry.DoesNotExist" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py exception">
+<dt id="common.models.Industry.MultipleObjectsReturned">
+<em class="property">exception </em><code class="sig-name descname">MultipleObjectsReturned</code><a class="headerlink" href="#common.models.Industry.MultipleObjectsReturned" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="common.models.KeySkill">
+<em class="property">class </em><code class="sig-prename descclassname">common.models.</code><code class="sig-name descname">KeySkill</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#common.models.KeySkill" title="Permalink to this definition">¶</a></dt>
+<dd><p>Model contains key skill info.</p>
+<dl class="py exception">
+<dt id="common.models.KeySkill.DoesNotExist">
+<em class="property">exception </em><code class="sig-name descname">DoesNotExist</code><a class="headerlink" href="#common.models.KeySkill.DoesNotExist" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py exception">
+<dt id="common.models.KeySkill.MultipleObjectsReturned">
+<em class="property">exception </em><code class="sig-name descname">MultipleObjectsReturned</code><a class="headerlink" href="#common.models.KeySkill.MultipleObjectsReturned" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="common.models.Language">
+<em class="property">class </em><code class="sig-prename descclassname">common.models.</code><code class="sig-name descname">Language</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#common.models.Language" title="Permalink to this definition">¶</a></dt>
+<dd><p>Model contains language info.</p>
+<dl class="py exception">
+<dt id="common.models.Language.DoesNotExist">
+<em class="property">exception </em><code class="sig-name descname">DoesNotExist</code><a class="headerlink" href="#common.models.Language.DoesNotExist" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py exception">
+<dt id="common.models.Language.MultipleObjectsReturned">
+<em class="property">exception </em><code class="sig-name descname">MultipleObjectsReturned</code><a class="headerlink" href="#common.models.Language.MultipleObjectsReturned" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="common.models.ProfessionalArea">
+<em class="property">class </em><code class="sig-prename descclassname">common.models.</code><code class="sig-name descname">ProfessionalArea</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#common.models.ProfessionalArea" title="Permalink to this definition">¶</a></dt>
+<dd><p>Model contains professional area info.
+Required:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>is_visible</p></li>
+</ul>
+</div></blockquote>
+<dl class="py exception">
+<dt id="common.models.ProfessionalArea.DoesNotExist">
+<em class="property">exception </em><code class="sig-name descname">DoesNotExist</code><a class="headerlink" href="#common.models.ProfessionalArea.DoesNotExist" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py exception">
+<dt id="common.models.ProfessionalArea.MultipleObjectsReturned">
+<em class="property">exception </em><code class="sig-name descname">MultipleObjectsReturned</code><a class="headerlink" href="#common.models.ProfessionalArea.MultipleObjectsReturned" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="common.models.Specialization">
+<em class="property">class </em><code class="sig-prename descclassname">common.models.</code><code class="sig-name descname">Specialization</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#common.models.Specialization" title="Permalink to this definition">¶</a></dt>
+<dd><p>Model contains specialization info.
+Required:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>is_visible</p></li>
+<li><p>professional_area</p></li>
+</ul>
+</div></blockquote>
+<dl class="py exception">
+<dt id="common.models.Specialization.DoesNotExist">
+<em class="property">exception </em><code class="sig-name descname">DoesNotExist</code><a class="headerlink" href="#common.models.Specialization.DoesNotExist" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py exception">
+<dt id="common.models.Specialization.MultipleObjectsReturned">
+<em class="property">exception </em><code class="sig-name descname">MultipleObjectsReturned</code><a class="headerlink" href="#common.models.Specialization.MultipleObjectsReturned" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="common.models.User">
+<em class="property">class </em><code class="sig-prename descclassname">common.models.</code><code class="sig-name descname">User</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#common.models.User" title="Permalink to this definition">¶</a></dt>
+<dd><p>This model contains users info.
+Required:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>created_at</p></li>
+<li><p>area</p></li>
+<li><p>account</p></li>
+<li><p>language</p></li>
+</ul>
+</div></blockquote>
+<dl class="py exception">
+<dt id="common.models.User.DoesNotExist">
+<em class="property">exception </em><code class="sig-name descname">DoesNotExist</code><a class="headerlink" href="#common.models.User.DoesNotExist" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py exception">
+<dt id="common.models.User.MultipleObjectsReturned">
+<em class="property">exception </em><code class="sig-name descname">MultipleObjectsReturned</code><a class="headerlink" href="#common.models.User.MultipleObjectsReturned" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-common.views">
+<span id="common-views-module"></span><h2>common.views module<a class="headerlink" href="#module-common.views" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-common">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-common" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">common package</a><ul>
+<li><a class="reference internal" href="#submodules">Submodules</a></li>
+<li><a class="reference internal" href="#module-common.admin">common.admin module</a></li>
+<li><a class="reference internal" href="#module-common.models">common.models module</a></li>
+<li><a class="reference internal" href="#module-common.views">common.views module</a></li>
+<li><a class="reference internal" href="#module-common">Module contents</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="../index.html"
+                        title="previous chapter">Welcome to grc’s documentation!</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/apps/common.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="../index.html" title="Welcome to grc’s documentation!"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">grc 1.0 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">common package</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2021, Borys Mishunin.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.4.3.
+    </div>
+  </body>
+</html>
